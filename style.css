@@ -224,19 +224,25 @@ button {
 
 .last-card {
     margin-bottom: 4rem;
+}
+
+.card-effect {
+    filter: hue-rotate(263deg);
+    background-image: url(./images/tarot-card-original.png);
+    background-size: cover;
     transition: 0.3s;
 }
 
-.last-card:hover {
+.card-effect:hover {
+    background-image: url(./images/tarot-card-original-hover.png);
     transition: 0.3s;
     margin-bottom: 6rem;
 }
 
-.tarot-container-daily .tarot-card {
-    filter: hue-rotate(263deg);
-    height: 200px;
-}
-
 .tarot-container-daily h1 {
     font-size: 3rem;
+}
+.card-hidden {
+    height: 200px;
+    visibility: hidden;
 }
