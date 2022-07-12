@@ -105,7 +105,6 @@ button {
 /* Layer-B Content */
 
 .tarot-container-b {
-    display: none !important;
     display: grid;
     background-image: url("./images/space-background.jpg");
     filter: hue-rotate(117deg);
@@ -148,7 +147,6 @@ button {
 /* Layer-B Content */
 
 .tarot-container-daily {
-    display: none !important;
     display: grid;
     background-image: url("./images/space-background.jpg");
     filter: hue-rotate(117deg);
@@ -209,4 +207,8 @@ button {
 
 .bottom-content-b h2, .mid-content-b h2, .top-content-b h2 {
     font-size: 1.2rem;
+}
+
+.displayHidden {
+    display: none !important;
 }
