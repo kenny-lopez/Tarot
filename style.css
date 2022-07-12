@@ -184,7 +184,7 @@ button {
     display: flex;
     align-items: center;
     text-align: center;
-    gap: 4rem;
+    gap: 15%;
     height: 22vh;
 }
 
@@ -199,7 +199,7 @@ button {
 
 /*----------------*/
 
-.h-spacing {margin-top: 3rem;}
+.h-spacing {padding-top: 3rem;}
 .m-spacing {margin-top: 2rem;}
 .lw-spacing {margin-top: 1rem;}
 .lws-spacing {margin-top: 0.5rem; margin-bottom: 0.5rem;}
