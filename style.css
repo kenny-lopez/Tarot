@@ -1,0 +1,212 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+    color:  white;
+}
+
+.footer-a img {
+    height: 80%;
+}
+
+.mid-content-a img {
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.fc-violet {
+    color: #c08cd0;
+    text-shadow: 0px 0px 14px #c4c4c4;;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.fz-medium {
+    font-family: 'Philosopher', sans-serif;
+    color: rgb(203, 203, 203);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+button {
+    font-family: 'Raleway', sans-serif;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: white outset 1px;
+    color: white;
+    background-color: transparent;
+}
+
+/* Layer-A Content */
+
+.tarot-container-a {
+    display: grid;
+    background-image: url("./images/space-background.jpg");
+    filter: hue-rotate(117deg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+}
+
+.top-content-a {
+    text-align: center;
+    gap: 1rem;
+    height: 35vh;
+}
+
+.mid-content-a {
+    text-align: center;
+    height: 35vh;
+}
+
+.bottom-content-a {
+    text-align: center;
+    height: 20vh;
+}
+
+.footer-a {
+    place-content: center;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #9966a9;
+}
+
+/*----------------*/
+
+/* Layer-B Content */
+
+.tarot-container-b {
+    display: none !important;
+    display: grid;
+    background-image: url("./images/space-background.jpg");
+    filter: hue-rotate(117deg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+}
+
+.top-content-b {
+    place-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+    height: 30vh;
+}
+
+.mid-content-b {
+    place-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+    height: 30vh;
+}
+
+.bottom-content-b {
+    place-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+    height: 30vh;
+}
+
+/*----------------*/
+
+/* Layer-B Content */
+
+.tarot-container-daily {
+    display: none !important;
+    display: grid;
+    background-image: url("./images/space-background.jpg");
+    filter: hue-rotate(117deg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+}
+
+.top-content-daily {
+    place-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+    height: 24vh;
+}
+
+.mid-content-1-daily {
+    place-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+    height: 22vh;
+}
+
+.mid-content-2-daily {
+    place-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+    height: 22vh;
+}
+
+.bottom-content-daily {
+    place-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+    height: 22vh;
+}
+
+/*----------------*/
+
+.h-spacing {margin-top: 3rem;}
+.m-spacing {margin-top: 2rem;}
+.lw-spacing {margin-top: 1rem;}
+.lws-spacing {margin-top: 0.5rem; margin-bottom: 0.5rem;}
+
+.tarot-card {
+    height: 100px;
+    padding-bottom: 1rem;
+}
+
+.bottom-content-b h2, .mid-content-b h2, .top-content-b h2 {
+    font-size: 1.2rem;
+}
