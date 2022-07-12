@@ -70,7 +70,8 @@ button {
     background-position: center;
     align-items: center;
     justify-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    max-height: -webkit-fill-available;
 }
 
 .top-content-a {
