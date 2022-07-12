@@ -167,7 +167,7 @@ button {
     align-items: center;
     text-align: center;
     gap: 4rem;
-    height: 24vh;
+    height: 22vh;
 }
 
 .mid-content-1-daily {
@@ -194,7 +194,7 @@ button {
     align-items: center;
     text-align: center;
     gap: 4rem;
-    height: 22vh;
+    height: 24vh;
 }
 
 /*----------------*/
@@ -215,4 +215,28 @@ button {
 
 .displayHidden {
     display: none !important;
+}
+
+.first-card {
+    margin-top: 4rem;
+    z-index: 1;
+}
+
+.last-card {
+    margin-bottom: 4rem;
+    transition: 0.3s;
+}
+
+.last-card:hover {
+    transition: 0.3s;
+    margin-bottom: 6rem;
+}
+
+.tarot-container-daily .tarot-card {
+    filter: hue-rotate(263deg);
+    height: 200px;
+}
+
+.tarot-container-daily h1 {
+    font-size: 3rem;
 }
