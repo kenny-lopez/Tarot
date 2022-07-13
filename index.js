@@ -8,3 +8,7 @@ function hiddenBTarotDaily () {
     document.querySelector(".tarot-container-daily").classList.remove("displayHidden");
 }
 
+function hiddenDailyToResult () {
+    document.querySelector(".tarot-container-daily").style.display = "none";
+    document.querySelector(".tarot-container-daily-result").classList.remove("displayHidden");
+}

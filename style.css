@@ -148,7 +148,7 @@ button {
 
 /*----------------*/
 
-/* Layer-B Content */
+/* Layer-Daily Content */
 
 .tarot-container-daily {
     display: grid;
@@ -195,6 +195,47 @@ button {
     text-align: center;
     gap: 4rem;
     height: 24vh;
+}
+
+/*----------------*/
+
+/* Layer-Daily-Result Content */
+
+.tarot-container-daily-result {
+    display: grid;
+    background-image: url("./images/space-background.jpg");
+    filter: hue-rotate(117deg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+}
+
+.top-content-daily-result {
+    place-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+    height: 45vh;
+}
+
+.mid-content-daily-result {
+    place-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15%;
+    height: 35vh;
+}
+
+.bottom-content-daily-result {
+    place-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+    height: 10vh;
 }
 
 /*----------------*/
@@ -251,3 +292,30 @@ button {
     height: 200px;
     visibility: hidden;
 }
+
+.daily-card-result img {
+    filter: hue-rotate(259deg);
+    height: 300px;
+}
+
+.daily-text-content p {
+    text-align: justify;
+    font-size: 2vh;
+    line-height: 2.5vh;
+}
+
+.daily-text-content h1 {
+    padding-bottom: 5vh;
+    text-transform: uppercase;
+    font-size: 4vh;
+}
+
+.daily-text-content {
+    margin-inline: 14px;
+}
+
+.bottom-content-daily-result button {
+    padding: 0.4rem 1rem;
+
+}
+    
