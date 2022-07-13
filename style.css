@@ -295,27 +295,30 @@ button {
 
 .daily-card-result img {
     filter: hue-rotate(259deg);
-    height: 300px;
+    width: 80%;
 }
 
 .daily-text-content p {
     text-align: justify;
-    font-size: 2vh;
-    line-height: 2.5vh;
-}
-
-.daily-text-content h1 {
-    padding-bottom: 5vh;
-    text-transform: uppercase;
-    font-size: 4vh;
+    font-size: 1.4rem;
+    line-height: 1;
 }
 
 .daily-text-content {
     margin-inline: 14px;
 }
 
+.mid-content-daily-result {
+    overflow: auto;
+}
+
 .bottom-content-daily-result button {
     padding: 0.4rem 1rem;
-
 }
-    
+
+.card-title {
+    font-family: 'Philosopher', sans-serif;
+    margin: 1rem 0rem;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
