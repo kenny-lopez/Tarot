@@ -117,6 +117,6 @@ function dailyResult() {
     var cardResult = document.querySelector(".daily-card-result img");
     var descriptionResult = document.querySelector(".daily-text-content");
 
-    cardResult.src="/images/card" + number + ".png";
+    cardResult.src="./images/card" + number + ".png";
     descriptionResult.innerHTML = "<p>" + cards[number].descriptionDaily + "</p>";
 }
