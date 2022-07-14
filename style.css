@@ -1,4 +1,4 @@
-html { height: 100%; }
+html { height: 100%; overflow: auto;}
 body { min-height: 100%; }  
 
 body {
@@ -310,6 +310,7 @@ button {
 
 .mid-content-daily-result {
     overflow: auto;
+    overflow-y: initial;
 }
 
 .bottom-content-daily-result button {

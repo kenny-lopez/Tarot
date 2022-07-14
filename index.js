@@ -14,6 +14,7 @@ function hiddenDailyToResult () {
 }
 
 function returnToB () {
+    document.querySelector('#result').scrollTo(0,0);
     document.querySelector(".tarot-container-daily-result").classList.add("displayHidden");
     document.querySelector(".tarot-container-b").classList.remove("displayHidden");
 }
