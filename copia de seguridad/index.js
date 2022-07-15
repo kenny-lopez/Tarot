@@ -119,13 +119,12 @@ function dailyResult() {
 
     cardResult.src="./images/card" + number + ".png";
     descriptionResult.innerHTML = "<p>" + cards[number].descriptionDaily + "</p>";
-
-    setTimeout(flipped, 2000);
 }
 
 //CARD ANIMATION
-function flipped() {
+
 const card = document.querySelector('.card__inner');
 
-card.classList.toggle('is-flipped');
-}
+card.addEventListener('click', function () {
+    card.classList.toggle('is-flipped');
+});
