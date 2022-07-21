@@ -1,9 +1,14 @@
-html { height: 100%; overflow: auto;}
-body { min-height: 100%; }  
-
 body {
     padding: 0;
     margin: 0;
+    min-height: 100vh;
+    min-height: fill-available;
+    min-height: -webkit-fill-available;
+}
+
+html {
+    height: fill-available;
+    height: -webkit-fill-available;
 }
 
 h1,h2,h3,h4,h5,h6,p {
@@ -155,7 +160,7 @@ button:hover {
     align-items: center;
     justify-items: center;
     height: 100vh;
-    min-height: 100%;
+    overflow-y: auto;
 }
 
 .top-content-daily {
@@ -430,4 +435,28 @@ textarea::placeholder {
 
 .question-input textarea {
     margin-top: 5vh;
+}
+
+@media (max-height: 500px) {
+    .top-content-daily{
+        height: 33vh;
+    }
+    .name-input {
+        height: 15vh;
+    }
+    .question-input {
+        height: 60vh;
+    }
+    .question-send {
+        height: 27vh;
+    }
+    .footer-a {
+        height: 15vh;
+    }
+    textarea {
+        font-size: 4.5vh;
+    }
+    .question-input textarea {
+        margin-top: 7.5vh;
+    }
 }
