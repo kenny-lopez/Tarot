@@ -380,3 +380,52 @@ button:hover {
 .daily-card-result2 {
     transform: rotateY(180deg);
 }
+
+.name-input {
+    place-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+    height: 10vh;
+}
+
+.question-input {
+    place-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+    height: 40vh;
+}
+
+.question-send {
+    place-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+    height: 18vh;
+}
+
+textarea {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3vh;
+    resize: none;
+    border: none;
+    border-bottom: #714378ed solid 10px;
+    color: white;
+    background: #93939466;
+    padding: 1rem;
+    line-height: 1.4;
+    height: -webkit-fill-available;
+    width: 60vw;
+}
+
+textarea::placeholder {
+    color: rgb(161, 161, 161);
+}
+
+.question-input textarea {
+    margin-top: 5vh;
+}
