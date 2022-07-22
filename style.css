@@ -437,26 +437,30 @@ textarea::placeholder {
     margin-top: 5vh;
 }
 
+/*When Keyboard Is Active On Inputs*/
 @media (max-height: 500px) {
+    .tarot-container-daily{
+        height: 165vh;
+    }
     .top-content-daily{
-        height: 33vh;
+        height: 38vh;
     }
     .name-input {
-        height: 15vh;
+        height: 16.5vh;
     }
     .question-input {
         height: 60vh;
     }
     .question-send {
-        height: 27vh;
+        height: 30vh;
     }
     .footer-a {
-        height: 15vh;
+        height: 18vh;
     }
     textarea {
-        font-size: 4.5vh;
+        font-size: 5vh;
     }
     .question-input textarea {
-        margin-top: 7.5vh;
+        margin-top: 9vh;
     }
 }
