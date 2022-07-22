@@ -158,7 +158,8 @@ button:hover {
 /* Layer-Daily Content */
 
 .tarot-container-daily {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     background-image: url("./images/space-background.jpg");
     filter: hue-rotate(117deg);
     background-size: cover;
@@ -166,7 +167,6 @@ button:hover {
     align-items: center;
     justify-items: center;
     height: 100vh;
-    overflow-y: auto;
 }
 
 .top-content-daily {
@@ -428,15 +428,15 @@ textarea {
     border-bottom: #714378ed solid 10px;
     color: white;
     background: #93939466;
-    padding: 1rem;
     line-height: 1.4;
-    height: -webkit-fill-available;
-    width: 60vw;
+    height: 85%;
+    width: 70vw;
     overflow: hidden;
 }
 
 textarea::placeholder {
     color: rgb(161, 161, 161);
+    padding: 1rem;
 }
 
 .question-input textarea {
