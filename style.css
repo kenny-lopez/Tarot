@@ -132,14 +132,16 @@ button:hover {
 /* Main Menu Content */
 
 .main-menu-section {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    height: -webkit-fill-available;
     background-image: url("./images/space-background.jpg");
     filter: hue-rotate(117deg);
     background-size: cover;
     background-position: center;
     align-items: center;
     justify-items: center;
-    height: 100vh;
     -webkit-animation: fadeEffect 0.5s;
     animation: fadeEffect 0.5s;
 }
