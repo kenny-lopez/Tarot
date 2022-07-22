@@ -79,14 +79,14 @@ button:hover {
 .tarot-container-a {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    height: -webkit-fill-available;
     background-image: url("./images/space-background.jpg");
     filter: hue-rotate(117deg);
     background-size: cover;
     background-position: center;
     align-items: center;
     justify-items: center;
-    height: 100vh;
-    height: -webkit-fill-available;
 }
 
 .top-content-a {
@@ -120,6 +120,10 @@ button:hover {
     background-color: #9966a9;
 }
 
+.space-container {
+    height: 1vh;
+}
+
 /*----------------*/
 
 /* Main Menu Content */
@@ -127,14 +131,13 @@ button:hover {
 .main-menu-section {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    height: -webkit-fill-available;
     background-image: url("./images/space-background.jpg");
     filter: hue-rotate(117deg);
     background-size: cover;
     background-position: center;
     align-items: center;
     justify-items: center;
+    height: 100vh;
 }
 
 .spacing-container {
@@ -155,16 +158,15 @@ button:hover {
 /* Layer-Daily Content */
 
 .tarot-container-daily {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    height: -webkit-fill-available;
+    display: grid;
     background-image: url("./images/space-background.jpg");
     filter: hue-rotate(117deg);
     background-size: cover;
     background-position: center;
     align-items: center;
     justify-items: center;
+    height: 100vh;
+    overflow-y: auto;
 }
 
 .top-content-daily {
@@ -208,16 +210,14 @@ button:hover {
 /* Layer-Daily-Result Content */
 
 .tarot-container-daily-result {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    height: -webkit-fill-available;
+    display: grid;
     background-image: url("./images/space-background.jpg");
     filter: hue-rotate(117deg);
     background-size: cover;
     background-position: center;
     align-items: center;
     justify-items: center;
+    height: 100vh;
 }
 
 /*.top-content-daily-result {
