@@ -288,7 +288,7 @@ button:hover {
 }
 
 .card-effect {
-    height: 34vh;
+    height: 30vh;
     filter: hue-rotate(263deg);
     background-image: url(./images/tarot-card-original.png);
     background-size: contain;
@@ -297,7 +297,7 @@ button:hover {
 }
 
 .card-effect:hover {
-    height: 34vh;
+    height: 30vh;
     background-image: url(./images/tarot-card-original-hover.png);
     background-size: contain;
     background-repeat: no-repeat;
