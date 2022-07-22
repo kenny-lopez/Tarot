@@ -77,16 +77,14 @@ button:hover {
 /* Layer-A Content */
 
 .tarot-container-a {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    height: -webkit-fill-available;
     background-image: url("./images/space-background.jpg");
     filter: hue-rotate(117deg);
     background-size: cover;
     background-position: center;
     align-items: center;
     justify-items: center;
+    -webkit-animation: fadeEffect 0.5s;
+    animation: fadeEffect 0.5s;
 }
 
 .top-content-a {
@@ -107,6 +105,7 @@ button:hover {
     display: flex;
     text-align: center;
     height: 20vh;
+    place-content: center;
 }
 
 .footer-a {
@@ -137,6 +136,8 @@ button:hover {
     align-items: center;
     justify-items: center;
     height: 100vh;
+    -webkit-animation: fadeEffect 0.5s;
+    animation: fadeEffect 0.5s;
 }
 
 .spacing-container {
@@ -165,7 +166,8 @@ button:hover {
     align-items: center;
     justify-items: center;
     height: 100vh;
-    overflow-y: auto;
+    -webkit-animation: fadeEffect 0.5s;
+    animation: fadeEffect 0.5s;
 }
 
 .top-content-daily {
@@ -217,6 +219,8 @@ button:hover {
     align-items: center;
     justify-items: center;
     height: 100vh;
+    -webkit-animation: fadeEffect 0.5s;
+    animation: fadeEffect 0.5s;
 }
 
 /*.top-content-daily-result {
@@ -468,4 +472,22 @@ textarea::placeholder {
     .question-input textarea {
         margin-top: 7.5vh;
     }
+}
+
+/*Fade Effect*/ /*
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+} */
+
+.tarot__app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    height: -webkit-fill-available;
 }
