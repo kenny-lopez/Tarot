@@ -5,6 +5,11 @@ function hiddenWelcome () {
     document.querySelector(".main-menu-section").classList.remove("displayHidden");
 }
 
+function backWelcome () {
+    document.querySelector(".tarot-container-a").classList.remove("displayHidden");
+    document.querySelector(".main-menu-section").classList.add("displayHidden");
+}
+
 function mainToCardSelectDaily () {
     for (var i=0; i < cardSelect.length; i++) {
         cardSelect[i].setAttribute("onclick", "setTimeout(dailyToResult, 1000), dailyResult();");
