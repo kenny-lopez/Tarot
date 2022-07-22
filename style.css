@@ -125,14 +125,16 @@ button:hover {
 /* Main Menu Content */
 
 .main-menu-section {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    height: -webkit-fill-available;
     background-image: url("./images/space-background.jpg");
     filter: hue-rotate(117deg);
     background-size: cover;
     background-position: center;
     align-items: center;
     justify-items: center;
-    height: 100vh;
 }
 
 .spacing-container {
@@ -153,15 +155,16 @@ button:hover {
 /* Layer-Daily Content */
 
 .tarot-container-daily {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    height: -webkit-fill-available;
     background-image: url("./images/space-background.jpg");
     filter: hue-rotate(117deg);
     background-size: cover;
     background-position: center;
     align-items: center;
     justify-items: center;
-    height: 100vh;
-    overflow-y: auto;
 }
 
 .top-content-daily {
@@ -205,14 +208,16 @@ button:hover {
 /* Layer-Daily-Result Content */
 
 .tarot-container-daily-result {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    height: -webkit-fill-available;
     background-image: url("./images/space-background.jpg");
     filter: hue-rotate(117deg);
     background-size: cover;
     background-position: center;
     align-items: center;
     justify-items: center;
-    height: 100vh;
 }
 
 /*.top-content-daily-result {
