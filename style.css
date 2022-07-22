@@ -77,6 +77,10 @@ button:hover {
 /* Layer-A Content */
 
 .tarot-container-a {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    height: -webkit-fill-available;
     background-image: url("./images/space-background.jpg");
     filter: hue-rotate(117deg);
     background-size: cover;
