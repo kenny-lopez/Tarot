@@ -309,7 +309,7 @@ button:hover {
     font-size: 3rem;
 }
 .card-hidden {
-    height: 200px;
+    height: 30vh;
     visibility: hidden;
 }
 
