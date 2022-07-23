@@ -28,15 +28,13 @@
     <body>
 
         <!-- Welcome Layer -->
-    <!--<div class="tarot__app">-->
         <div class="tarot-container-a">
 
             <div class="top-content-a">
                 <div>
-                    <h2 class="l-spacing"><span class="fc-violet">Estás invitado a una increible sesión de
-                            nuestro</span></h1>
-                        <h1>Tarot</h1>
-                        <h3 class="fz-medium">Online</h3>
+                    <h2 class="l-spacing"><span class="fc-violet">Estás invitado a una increible sesión denuestro</span></h1>
+                    <h1>Tarot</h1>
+                    <h3 class="fz-medium">Online</h3>
                 </div>
             </div>
 
@@ -94,7 +92,7 @@
             </div>
 
             <div class="main-menu-container">
-                <div class="game-row">
+                <div class="game-row" onclick="mainToCardSelectNumeric()">
                     <img class="tarot-card" src="./images/tarot-rompimiento.png" alt="">
                     <h2>Tarot<br>Númerico</h2>
                 </div>
@@ -116,7 +114,7 @@
 
             <div class="top-content-daily">
                 <div>
-                    <h1>Escoge <br>Una Carta</h1>
+                    <h1>Escoge<br>Una Carta</h1>
                 </div>
             </div>
 
@@ -204,7 +202,60 @@
                 <img src="./images/logo-blanco-aidee.png" alt="">
             </div>
         </div>
-    <!--</div>-->
+
+        <!-- Tarot Numeric Layer -->
+        <div class="tarot-container-daily displayHidden numeric-container">
+
+            <div class="top-content-daily">
+                <div>
+                    <h1>Selecciona<br>Una Fecha</h1>
+                </div>
+            </div>
+    
+            <div class="date-container">
+                <div class="parent">
+                    <div class="div1 container-size"><h2>Dia</h2></div>
+                    <div class="div2 container-size container-design">
+                        <select name="dias" id="dias">
+                        </select> 
+                    </div>
+                    <div class="div3 container-size"><h2>Mes</h2></div>
+                    <div class="div4 container-size container-design">
+                        <select name="meses" id="meses">
+                            <optgroup>
+                            <option value="1">Enero</option>
+                            <option value="2">Febrero</option>
+                            <option value="3">Marzo</option>
+                            <option value="4">Abril</option>
+                            <option value="5">Mayo</option>
+                            <option value="6">Junio</option>
+                            <option value="7">Julio</option>
+                            <option value="8">Agosto</option>
+                            <option value="9">Septiembre</option>
+                            <option value="10">Octubre</option>
+                            <option value="11">Noviembre</option>
+                            <option value="12">Diciembre</option>
+                            </optgroup>
+                        </select> 
+                    </div>
+                    <div class="div5 container-size"><h2>Año</h2></div>
+                    <div class="div6 container-size container-design">
+                        <select name="years" id="years">
+                        </select> 
+                    </div>
+                </div>
+            </div>
+    
+            <div class="question-send">
+                <div>
+                    <button id="date-send">Calcular</button>
+                </div>
+            </div>
+    
+            <div class="footer-a">
+                <img src="./images/logo-blanco-aidee.png" alt="">
+            </div>
+        </div>
 
         <script src="index.js"></script>
 

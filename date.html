@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="tarot-container-daily question-container">
+
+        <div class="top-content-daily">
+            <div>
+                <h1>Selecciona<br>Una Fecha</h1>
+            </div>
+        </div>
+
+        <div class="date-container">
+            <div class="parent">
+                <div class="div1 container-size"><h2>Dia</h2></div>
+                <div class="div2 container-size container-design">
+                    <select name="dias" id="dias">
+                    </select> 
+                </div>
+                <div class="div3 container-size"><h2>Mes</h2></div>
+                <div class="div4 container-size container-design">
+                    <select name="meses" id="meses">
+                        <optgroup>
+                        <option value="01">Enero</option>
+                        <option value="02">Febrero</option>
+                        <option value="03">Marzo</option>
+                        <option value="04">Abril</option>
+                        <option value="05">Mayo</option>
+                        <option value="06">Junio</option>
+                        <option value="07">Julio</option>
+                        <option value="08">Agosto</option>
+                        <option value="09">Septiembre</option>
+                        <option value="10">Octubre</option>
+                        <option value="11">Noviembre</option>
+                        <option value="12">Diciembre</option>
+                        </optgroup>
+                    </select> 
+                </div>
+                <div class="div5 container-size"><h2>Año</h2></div>
+                <div class="div6 container-size container-design">
+                    <select name="years" id="years">
+                    </select> 
+                </div>
+            </div>
+        </div>
+
+        <div class="question-send">
+            <div>
+                <button id="textarea-send">Calcular</button>
+            </div>
+        </div>
+
+        <div class="footer-a">
+            <img src="./images/logo-blanco-aidee.png" alt="">
+        </div>
+    </div>
+
+    <script src="date.js"></script>
+</body>
+</html>

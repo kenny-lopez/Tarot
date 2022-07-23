@@ -30,6 +30,13 @@ function mainToCardSelectYesnot () {
     document.querySelector(".question-container").classList.remove("displayHidden");
 }
 
+function mainToCardSelectNumeric () {
+    document.querySelector('#date-send').setAttribute("onclick", "setTimeout(dailyToResult, 1000), numericResult();");
+
+    document.querySelector(".main-menu-section").classList.add("displayHidden");
+    document.querySelector(".numeric-container").classList.remove("displayHidden");
+}
+
 function dailyToResult () {
     document.querySelector(".tarot-container-daily").classList.add("displayHidden");
     document.querySelector(".question-container").classList.add("displayHidden");
@@ -64,7 +71,7 @@ var cards = [
         "number": 1,
         "descriptionDaily": "Visionario e inspirador, usted es la persona a la que la gente acude en busca de nuevas ideas. Tienes la asombrosa habilidad de convertir tus ideas en realidad, o al menos hacer que otros se entusiasmen tanto que lo hagan por ti. El enfoque es la clave de su éxito. Si pones tu mente en algo de manera seria, estás casi seguro de que se hará realidad. Las comunicaciones y el pensamiento claro y rápido son sus dones. La magia no es más que la manipulación de la energía a voluntad. En el mejor de los casos, los magos son verdaderos maestros de la manipulación.",
         "descriptionLove": "Representa a alguien suave y encantador, él o ella entrara a tu vida y te sorprenderá de una manera verdaderamente mágica, este es un romance vertiginoso que se siente como un cuento de hadas. Si aún no ha sucedido, pronto lo hará. ¿Resistirá esta relación la prueba del tiempo? Bueno, eso depende. La carta del tarot Mago a veces representa a un manipulador, alguien que usa su personalidad y carisma para engañar a quienes caen bajo su hechizo. ¿Qué dice tu intuición? Mire las cartas alrededor del Mago para determinar sus verdaderas intenciones. De todos modos, esta conexión será una que cambiará la vida.",
-        "descriptionCareer": "",    
+        "descriptionCareer": "Esta carta sugiere que hay oportunidades nuevas y emocionantes en el horizonte, y que tienes los poderes y habilidades para perseguirlas y tener éxito.<br><br>¿Dónde estás en lo que respecta a tu carrera? ¿Hay cosas que todavía quieres lograr?<br><br>El Mago te está diciendo que vayas tras tus sueños. Es hora de poner tus pasiones primero y elaborar un plan claro para tu destino. Si hay oportunidades para promociones o empresas comerciales, ¡aprovéchalas con toda tu energía! Tienes las herramientas para tener éxito, así que ponte ahí fuera y manifiesta tu futuro.",    
         "descriptionYesNot": "<h1>Si</h1>",    
         "descriptionMoney": "",    
         "descriptionHealth": "",     
@@ -73,7 +80,7 @@ var cards = [
         "number": 2,
         "descriptionDaily": "Nada puede crearte un momento de silencio, toma nota cuidadosamente de todo lo que te rodea. Sensible a las energías más sutiles, se puede confiar en usted para notar lo que la mayoría de nosotros se pierde. Su tranquila paciencia y comportamiento virtuoso a menudo lo colocan en un pedestal ante el cual la gente agradece inclinarse. Su intuición es fuerte y tiende a usar sus sentimientos al menos tanto como su fino intelecto cuando toma decisiones importantes. Los representados por la Suma Sacerdotisa tienen el don de ver un panorama completo sin dejarse abrumar por los detalles.",
         "descriptionLove": "Es posible que te sientas insatisfecho con muchas áreas de tu vida, incluido el amor. Probablemente sientas que no puedes lograr la intimidad sin importar cuánto lo intentes.<br><br>Afortunadamente, hay una solución fácil: ¡deja de intentarlo! No estamos diciendo que renuncies a la vida o a tus relaciones, sino que simplemente des un paso atrás y dejes que florezca lo que ya es.<br><br>Si nos obligamos a comprometernos o 'estar contentos' antes de que nosotros estemos listos, el resentimiento comienza a acumularse. Realmente está bien ser pasivo y paciente.<br><br>▸ Enfócate en tus propios deseos y necesidades<br>▸ Deja de intentarlo y da un paso atrás<br>▸ Ser pasivo y paciente",
-        "descriptionCareer": "",    
+        "descriptionCareer": "Buscas conocimiento e inspiracion. Pronto aparecerán nuevas ideas y objetivos de trabajo y esto puede provocar un cambio de carrera.<br><br>Piensa en tus verdaderos sueños y deseos internos. ¿Qué es lo que realmente esperas de tu vida laboral? ¿Lo estás consiguiendo ahora mismo? ¿O necesita cambiar las cosas y seguir un nuevo camino?<br><br>Si has de tomar decisiones importantes en el ámbito laboral, escucha tu intuición. Amigos y familiares podrian tratar de ayudar con consejos, pero por ahora deberas buscar la respuesta en ti. Tómate un tiempo para meditar sobre lo que realmente quieres.",    
         "descriptionYesNot": "<h1>Si</h1>",    
         "descriptionMoney": "",    
         "descriptionHealth": "",     
@@ -82,7 +89,7 @@ var cards = [
         "number": 3,
         "descriptionDaily": "Estás ocupado dando a luz nuevas creaciones en forma de arte, comida, música o cualquier cosa que inspire los sentidos. Eres la sensualidad encarnada y cuando te enfocas en tu tarea, inusualmente prolífica. Tu naturaleza amable atrae a muchas almas descarriadas hacia ti y haces todo lo posible para ayudarlas a todas. Para la Emperatriz nada es más importante que la creación y la creación nace del amor.",
         "descriptionLove": "La Emperatriz representa la relación perfecta con uno mismo y con los demás.<br><br>Si deseas una conexión amorosa sana, íntegra y armoniosa, la Emperatriz en una lectura de amor es una buena señal. Sin embargo, esto no es algo que puedas manifestar a menos que primero te asegures de estar bien contigo.<br><br>¿Te aceptas como eres? ¿Aceptas tus defectos? ¿Estás lleno de confianza o todavía estás luchando con la vergüenza y la culpa? El tipo de relación que brinda la Emperatriz es un subproducto del autocuidado.<br><br>Vale la pena señalar nuevamente que la emperatriz tiene un fuerte vínculo con el 'rol maternal'. Si ya es madre o desea serlo pronto, esto no le sorprende. Si aún no está listo para asumir el papel de padre, considere convertirse en mentor.<br><br>▸ Asegúrate de estar bien contigo<br>▸ Practica el autocuidado<br>▸ Cuida de los demás con amor y compasión",
-        "descriptionCareer": "",    
+        "descriptionCareer": "¿Estas prosperando en tu carrera? Si no es ahora, probablemente lo hará pronto. La Emperatriz también podría anunciar una época de intensificación de la pasión y la creatividad en el trabajo. Entonces, si tiene su creatividad fluyendo, ahora es el momento de ponerla a trabajar.<br><br>Hay muchas posibilidades de que lo que pones ahora en tu energía valga la pena. Tambien podria significar que tienes compañeros de trabajo que te apoyan y te cuidan, o que se sienten particularmente comodos contigo.<br><br>Quizas sea un buen momento para renovar tu oficina o lugar de trabajo, deja que tu creatividad fluya.",    
         "descriptionYesNot": "<h1>Si</h1>",    
         "descriptionMoney": "",    
         "descriptionHealth": "",     
@@ -91,7 +98,7 @@ var cards = [
         "number": 4,
         "descriptionDaily": "Asertivo y confiado, tienes un fuerte sentido de tu propio dominio. Trabajas duro para crear el mundo en el que quieres vivir y tienes poca tolerancia con los advenedizos que llegan sin invitación. Una vez que te has propuesto algo, tu enfoque rara vez flaquea. Te rodea un aura de autoridad y, a menudo, te encuentras a cargo. Eres un apasionado de tus convicciones y pocos de los que te conocen desconocen tus creencias. En tu mejor momento eres dinámico, lógico y conoces tu propio poder. Realmente puedes hacer que las cosas sucedan, y ¡ay de aquellos que intenten detenerte!",
         "descriptionLove": "Si eres soltero, ¡prepárate para enamorarte pronto! La carta del tarot Emperador en una lectura de amor y relación significa acción, compromiso y estabilidad.<br><br>Conocido por su autoridad y naturaleza paternal, el Emperador a menudo indica una relación romántica con una persona mayor, que te colmará de amor, atención y apoyo.<br><br>Si ya estás en una relación, la carta del tarot del Emperador es una buena señal, ya que representa la monogamia y las relaciones duraderas. Te dice que tu pareja está contigo a largo plazo y que tu relación será estable.<br><br>¿Estás pasando por un momento difícil con tu ser querido? Si este es el caso, esta carta te dice que la situación mejorará pronto.<br><br>▸ Prepárate para enamorarte pronto si estás soltero<br>▸ Si estás en una relación, podria ser duradera<br>▸ Los problemas de relación pronto terminarán o mejorarán",
-        "descriptionCareer": "",   
+        "descriptionCareer": "Profesionalmente eres capaz de hacerte cargo y liderar. El Emperador indica que puedes ser visto como alguien con poder o control sobre otras personas a su alrededor en el trabajo, pero también tiene responsabilidad y cualidades de liderazgo.<br><br>Esta carta tambien presagia que tu trabajo es notado y apreciado, lo que te traerá grandes recompensas a cambio.<br><br>Si está buscando trabajo, podrias encontrar uno que se adapte a ti y que funcione en tu horario diario. Eres perseverante y comprometido con tu carrera, solo recuerda tambien serlo en otros aspectos de tu vida.<br><br>También podría indicar que alcanzaras estabilidad en tu trabajo y carrera.",   
         "descriptionYesNot": "<h1>Si</h1>",    
         "descriptionMoney": "",    
         "descriptionHealth": "",     
@@ -154,7 +161,7 @@ var cards = [
         "number": 11,
         "descriptionDaily": "El equilibrio es vital para su personalidad y esforzarse por mantenerlo es un enfoque principal. Tu respeto por la autoridad está directamente relacionado con cuán justa y honesta la percibes. No tienes tiempo para mentirosos y desprecias la injusticia en todas partes. Entiendes bien las lecciones del karma, reconociendo cómo la acción o el pensamiento más pequeño puede causar los cambios más grandes. Tu pasión por la justicia a nivel universal es igual solo a tu necesidad de mantener el equilibrio a nivel personal. Es importante que los tipos de personalidad de Justicia se tomen el tiempo para realinearse, rejuvenecer y regocijarse regularmente.",
         "descriptionLove": "En el campo del amor y las relaciones, la carta del tarot de la Justicia representa decisiones y elecciones. ¿Conoces tu valor? Conformarte con menos de lo que mereces, ya sea soltero o comprometido, nunca es una opción.<br><br>A veces, esto significa permanecer soltero incluso cuando ves a todos los demás comprometiéndose o casándose. Otras veces significa, dejar una relación que alguna vez apreciaste. La justicia te insta a ser fiel a ti mismo primero y luego seguir adelante.<br><br>Si está pasando por el final de una relación, podría estar avecinándose una batalla legal. Es difícil decir si las cosas funcionarán (o no) a tu favor. Aún así, la Justicia puede representar lecciones de vida que te ayudarán a elevarte a un plano superior sin importar el resultado.",
-        "descriptionCareer": "",
+        "descriptionCareer": "Esta carta sugiere que cualquier problema de injusticia en su lugar de trabajo pronto se resolverá. Si ha sido honesto y respetuoso con sus compañeros de trabajo, entonces no tiene de qué preocuparse. Sin embargo, si ha estado involucrado en dramas y conflictos, es posible que pronto enfrente repercusiones.<br><br>Tambien puede significar una necesidad de equilibrio entre su carrera profesional y su vida personal. ¿Estás demasiado involucrado en tu carrera y te olvidas de relajarte? ¿Quizás tus amigos o familiares te sienten muy distante ya que pasas mucho tiempo afuera?<br><br>Tómate un tiempo fuera de tu oficina y disfrutalo con tus seres queridos y contigo mismo. El trabajo es importante para ti, ¡pero no lo es todo!",
         "descriptionYesNot": "<h1>Quizás</h1>",
         "descriptionMoney": "",
         "descriptionHealth": "",
@@ -289,8 +296,77 @@ function yesnotResult() {
     setTimeout(flipped, 2000);
 }
 
+function numericResult() {
+    var cardResult = document.querySelector(".daily-card-result2 img");
+    var descriptionResult = document.querySelector(".daily-text-content");
+    var days = String(document.getElementById('dias').value);
+    var months = String(document.getElementById('meses').value);
+    var years = String(document.getElementById('years').value);
+    
+    let total = String(days + months + years);
+    console.log(total);
+    let resTotal = 0;
+    total.split('').forEach(c => resTotal += parseInt(c));
+    console.log(resTotal);
+    
+    if (resTotal < 22) {
+        cardResult.src="./images/card" + resTotal + ".png";
+        descriptionResult.innerHTML = "<h1>" + resTotal + "</h1>";
+    } else if (resTotal == 22) {
+        cardResult.src="./images/card" + 0 + ".png";
+        descriptionResult.innerHTML = "<h1>" + 22 + "</h1>";
+    } else {
+      let resTotal2 = 0;
+      String(resTotal).split('').forEach(c => resTotal2 += parseInt(c));
+      console.log(resTotal2);
+        if (resTotal2 < 22) {
+            cardResult.src="./images/card" + resTotal2 + ".png";
+            descriptionResult.innerHTML = "<h1>" + resTotal2 + "</h1>";
+        } else {
+            cardResult.src="./images/card" + 0 + ".png";
+            descriptionResult.innerHTML = "<h1>" + 22 + "</h1>";
+        }
+    }
+    setTimeout(flipped, 2000);
+}
+
 //CARD ANIMATION
 function flipped() {
     const card = document.querySelector('.card__inner');
     card.classList.toggle('is-flipped');
 }
+
+//TAROT NUMERICO
+
+//Months Array
+function range(start, end) {
+    return Array(end - start + 1).fill().map((_, idx) => start + idx)
+};
+var dayOfMonth = range(1, 31);
+
+let groupDays = document.createElement('optgroup');
+document.getElementById('dias').appendChild(groupDays);
+
+dayOfMonth.forEach(dayOfMonth => {
+let option = document.createElement('option');
+groupDays.appendChild(option);
+
+option.innerHTML += dayOfMonth;
+});
+
+//Years Array
+function range(start, end) {
+    return Array(end - start + 1).fill().map((_, idx) => start + idx)
+};
+var years = range(1922, 2022);
+years.sort(function(a, b){return b - a});
+
+let groupYears = document.createElement('optgroup');
+document.getElementById('years').appendChild(groupYears);
+
+years.forEach(years => {
+let option = document.createElement('option');
+groupYears.appendChild(option);
+
+option.innerHTML += years;
+});
