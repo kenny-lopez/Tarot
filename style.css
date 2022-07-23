@@ -289,6 +289,11 @@ button:hover {
     margin-top: -4rem;
 }
 
+.last-card:hover {
+    margin-top: -6rem;
+    margin-bottom: 0 !important;
+}
+
 .card-effect {
     height: 30vh;
     filter: hue-rotate(263deg);
