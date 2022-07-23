@@ -325,7 +325,8 @@ button:hover {
 }
 
 #result {
-    overflow-y: auto !important;
+    overflow-y: scroll !important;
+    -webkit-overflow-scrolling: touch;
     overflow-x: hidden;
     direction: ltr;
     scrollbar-color: #d4aa70 #e4e4e4 !important;
