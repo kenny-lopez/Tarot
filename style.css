@@ -9,6 +9,7 @@ body {
     height: 100vh;
     height: fill-available;
     height: -webkit-fill-available;
+    overflow: hidden;
 }
 
 h1,h2,h3,h4,h5,h6,p {
@@ -350,10 +351,6 @@ button:hover {
 /*--------------------------------------------*/
 
 .mid-content-daily-result {
-    overflow: scroll;
-    overflow-y: initial;
-    /*border: #6a357b solid 1px;
-    border-inline: 0;*/
     background-color: #2f143863;
 }
 
